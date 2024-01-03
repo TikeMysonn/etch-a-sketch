@@ -21,7 +21,7 @@ function createGrid(numSquaresSide) {
 
     gridItem.addEventListener("mouseout", function () {
       gridItem.classList.remove("hovered");
-      gridItem.style.backgroundColor = "";
+      //   gridItem.style.backgroundColor = "";
     });
   }
 }
